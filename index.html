@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            color:black;
+        }
+        .row1{
+            position:relative;
+            width:100;
+            height:100vh;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(100, 240, 65, 0.605);
+            text-align: center;
+        }
+        .col1 input{
+            padding: 20px;
+            background-color:aquamarine;
+            border: 0;
+            width: 400px;
+            border-radius: 20px;
+        }
+        .col1 input:hover{
+            background-color:rgb(243,191,159);
+
+        }
+        .col1 h1{
+            color:rgb(76,10,10);
+            margin:10px 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .col1 h1:hover{
+            color:blue;
+        }
+        .col1 h2{
+            color:rgb(76,10,10);
+            margin-top: 1em;
+            margin-bottom: 2em;
+
+
+        }
+        #header{
+            width:100;
+            height:70px;
+            position: fixed;
+            top: 0px;
+            background-color: rgb(242, 106, 9);
+
+        }
+        #navbar{
+            color: rgb(227, 9, 52);
+            margin:10px 10px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        #navbar ul{
+            display: flex;
+            justify-content: space-between;
+        }
+        #navbar ul li{
+            list-style: none;
+            margin: 20px 20px;
+            padding:10px;
+            color: brown;
+        }
+        #navbar h1:hover{
+            color: antiquewhite;
+            text-shadow:4px 4px 4px brown;
+
+        }
+        h1{
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+        .menu img{
+            width:300px;
+            height:200px
+            margin:10px 10px;
+            border-radius:30px;
+        }
+        .menu h3{
+            text-align: center;
+            padding-top:20px ;
+        }
+        .menu button{
+            background-color: black;
+            color: rgb(218, 229, 239);
+            padding:10px 10px ;
+            box-shadow: 5px 5px 5px wheat;
+            border-radius: 10px;
+        }
+        .menu button:hover{
+            border-color: beige;
+            color: rgb(219, 48, 48);
+        }
+        .menu{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 20px ;
+        }
+        .about{
+            display: flex;
+            justify-content: space-evenly;
+
+        }
+        .about p{
+            width: 400px;
+            text-align: justify;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="row1">
+        <div class="col1">
+            <h1>FOOD COURT</h1>
+            <h2>Best Quality And Tasty Food Point</h2>
+            <label for=""><i class="fa-solid fa-magnifying-glass"></i></label> 
+            <input type="text" placeholder="Search">
+            <header>
+            </div>
+           </div>
+          <div id="header">
+             <nav id="navbar">
+                 <h1>Food Court</h1>
+                     <ul>
+                        <li><a href=""></a>Home</li>
+                        <li><a href=""></a>About</li>
+                         <li><a href=""></a>Menu</li>
+                         <li><a href=""></a>Contact</li>    
+                     </ul>
+                 </nav>
+             </div>
+            </header>
+            <section>
+                <h1>Menu</h1>
+                <div class="d1">
+                    <div class="menu">
+                        <img src="R.jpg">
+                        <h3>Burger</h3>
+                        <button>Order</button>
+                    </div>
+                    <div class="menu">
+                        <img src="s.jpg">
+                        <h3>Vada</h3>
+                        <button>Order</button>
+                    </div>
+                    <div class="menu">
+                        <img src="images.jpg">
+                        <h3>Salmon</h3>
+                        <button>Order</button>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h1>About</h1>
+                <div class="about">
+                    <div class="des">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolorem voluptates nihil fuga possimus, aspernatur, hic dolor amet numquam pariatur quidem molestias, ipsum aliquid maxime accusamus fugiat autem quis earum.</p>
+                    </div>
+                <div class="img">
+                    <img src="12.jpg" width="400px" height="300px">
+                </div>
+                </div>
+            </section>
+        </div>         
+    </div>
+</body>
+</html>
